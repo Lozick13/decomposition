@@ -1,0 +1,12 @@
+.content-block{
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.content-block__header{
+	display: flex;
+	gap: 20px;
+}
+.content-block__preview{
+width: 100px;
+}

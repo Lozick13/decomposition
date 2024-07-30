@@ -1,0 +1,36 @@
+.searchbox {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 50px;
+}
+.searchbox__input {
+	padding: 15px;
+	border: solid 3px #ffd12d;
+	width: 100%;
+}
+.searchbox__keyboard {
+	position: absolute;
+	cursor: pointer;
+	right: 150px;
+}
+.searchbox__keyboard-image {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.searchbox__search {
+	cursor: pointer;
+	width: 100px;
+	height: 100%;
+	font-size: 18px;
+	
+	background: #ffd12d;
+	border: #ffd12d;
+}
+.searchbox__decorator {
+	border: 25px solid transparent;
+	border-left: 20px solid #ffd12d;
+	height: 100%;
+	width: 20px;
+}

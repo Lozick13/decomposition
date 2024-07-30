@@ -1,0 +1,15 @@
+.weather-indicator{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.weather-indicator__preview{
+	width: 50px;
+}
+.weather-indicator__value{
+	font-size: 32px;
+	font-weight: 500;
+}
+.weather-indicator__value::after{
+	content: '°';
+}

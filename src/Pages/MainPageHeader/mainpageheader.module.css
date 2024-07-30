@@ -1,0 +1,5 @@
+.main-page__header {
+	display: flex;
+	gap: 150px;
+	align-items: flex-end;
+}

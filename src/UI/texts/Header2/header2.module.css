@@ -1,0 +1,8 @@
+.header2 {
+	color: rgb(138, 138, 255);
+	cursor: pointer;
+}
+.header2:hover,
+.header2_active {
+	color: rgb(86, 86, 254);
+}

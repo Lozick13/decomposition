@@ -1,0 +1,9 @@
+.main-page__content-blocks{
+	display: flex;
+	flex-direction: column;
+	gap: 75px;
+	row-gap: 50px;
+	max-height: 300px;
+	flex-wrap: wrap;
+
+}
